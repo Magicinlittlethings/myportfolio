@@ -64,7 +64,7 @@
     
    
   </div>
-  <div class="second  flex justify-center relative w-screen">
+  <div class="second  flex justify-center relative w-screen" :style="{backgroundImage: `url('${bg3}')`} ">
     <div class=" card absolute bg-gray-600 border border-transparent rounded-md p-8 lg:p-16 w-3/5 ">
       <p class="font-bold text-3xl  lg:text-4xl text-center text-gray-100 mb-8">ABOUT <span class=" text-bora">ME</span></p>
       <p class="text-center text-gray-100  lg:px-20 leading-loose">
@@ -207,7 +207,7 @@
       </div>
     </div>
   </div>
-  <div class="third flex-col justify-center pt-32 pb-96 w-screen" id="portfolio">
+  <div class="third flex-col justify-center pt-32 pb-96 w-screen" id="portfolio" :style="{backgroundImage: `url('${bg2}')`} ">
      <p class="text-gray-100 font-semibold text-4xl lg:text-7xl mb-2 text-center"><span class="text-gray-400">02</span> PORTFOLIO</p>
       <p class="text-gray-100 text-xl lg:text-2xl text-center">MY LATEST WORK.  </p>
       
@@ -255,7 +255,7 @@
       </div>
 
   </div>
-  <div class="fourth relative flex justify-center h-screen w-screen" id="contact">
+  <div class="fourth relative flex justify-center h-screen w-screen" id="contact" :style="{backgroundImage: `url('${bg1}')`} ">
    <div class=" card2 absolute bg-gray-600 border border-transparent rounded-md p-8 lg:p-16  w-3/5   ">
     <div class="lg:flex lg:justify-between">
      <div class="">
@@ -306,6 +306,9 @@ export default {
     return{
       id:'home',
       showMenu:false,
+      bg3:"bg3.jpg",
+      bg2:"bg2.jpg",
+      bg1:"bg1.jpg",
     links:[
     {title:'HOME', nav:'#home', id:'home'},
     {title:'PROFESSIONAL', nav:'#professional', id:'professional'},
@@ -421,7 +424,6 @@ height:170vh;
 
 
 .second{
-
 background-size: cover;
 background-attachment: fixed;
 background-repeat: no-repeat;
@@ -492,15 +494,12 @@ width:10rem;
  
 }
 .third{
-background-image: url(C:\Users\BLACKGIRL\Documents\vue-calculator\public\bg2.jpg);
 background-size: cover;
 
 background-repeat: no-repeat;
  
 }
 .fourth{
-background-image: url(C:\Users\BLACKGIRL\Documents\vue-calculator\public\bg1.jpg);
-
 background-size: cover;
 background-attachment: fixed;
 background-repeat: no-repeat;
