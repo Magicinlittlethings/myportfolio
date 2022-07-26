@@ -244,7 +244,7 @@
           <div class="w-1 bg-bora border border-bora mx-8 rounded-2xl" ></div>
           <transition appear @enter = "enter3">
           <div >
-            <p class="text-bora text-base mb-2"> 2022 - PRESENT</p>
+            <p class="text-bora text-base mb-2"></p>
             <p class="text-gray-200 text-2xl mb-5">OURANOS TECHNOLOGIES</p>
             <p class="text-gray-400 text-base font-semibold">Intern</p>
             
