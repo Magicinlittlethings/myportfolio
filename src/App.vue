@@ -421,7 +421,7 @@ height:170vh;
 
 
 .second{
-background-image: url(C:\Users\BLACKGIRL\Documents\vue-calculator\public\bg3.jpg);
+
 background-size: cover;
 background-attachment: fixed;
 background-repeat: no-repeat;
